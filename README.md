@@ -35,7 +35,7 @@
 インストールが終わったら、コマンドプロンプトを立ち上げ　`git --version` と打ちます。
 ダウンロードしたgitのバージョンが表示されたら成功です。
 
-![git install 2](images/git_install2.png)
+![git install 2](images/git_install2.jpg)
 
 ## やること
 Gitってなに？かちょっと知る
