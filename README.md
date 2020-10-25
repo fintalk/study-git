@@ -22,8 +22,16 @@
 
 ## 事前準備
 ハンズオンの前までに以下をやっておいてください。
-- gitのインストール
-  - [Git - Downloads](https://git-scm.com/downloads) にアクセスし、自分の環境のリンクをクリックしてください。
+
+### GitHubにアカウントを作る
+- https://github.com/ の `Sign up` からUsername, e-mail, passwordを入力する
+- 人間クイズにこたえる
+- Join free planボタンを押す
+- アンケートに答える
+- 入力したメールアドレスに「[GitHub] Please verify your email address.」というタイトルのメールが来るので、「Verify e-mail address」ボタンを押す
+
+### gitのインストール
+[Git - Downloads](https://git-scm.com/downloads) にアクセスし、自分の環境のリンクをクリックしてください。
 
 ![git_download](images/git_download.jpg)
 
