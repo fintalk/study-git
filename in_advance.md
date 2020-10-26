@@ -1,4 +1,6 @@
 # 事前準備
+ハンズオンの前までにやること
+
 ## GitHubにアカウントを作る
 - https://github.com/ の `Sign up` からUsername, e-mail, passwordを入力する
 - 人間クイズにこたえる
