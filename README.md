@@ -4,7 +4,7 @@
 
 ## ゴール
 - Gitとは何かがわかります
-- ローカルでのGitの使い方がわかります
+- ローカルでのGitの基本的な使い方がわかります
 - Githubの基本的な使い方がわかります
 - Githubの既存のリポジトリーをフォークしてPullRequestが出せます
 
@@ -17,28 +17,27 @@
 
 - [GitHub Docs](https://docs.github.com/ja) ←こっちは日本語もある。
 - [Git - Reference](https://git-scm.com/docs)
+- [Git - Book](https://git-scm.com/book/en/v2)
 
-本だと [いちばんやさしいGit&GitHubの教本](https://book.impress.co.jp/books/1118101036) などがおすすめです。本はなるべく出版日が新しいものを買いましょう。
-
-## 事前準備
-ハンズオンの前までに以下をやっておいてください。
-
-[事前準備](in_advance.md)
+本だと [いちばんやさしいGit&GitHubの教本](https://book.impress.co.jp/books/1118101036) などがおすすめです。
 
 ## やること
-Gitってなに？かちょっと知る
-- バージョン管理とは？
-- バージョン管理ツールの歴史
-- Githubってなに？
+- [事前準備](in_advance.md)
 
-ローカル環境でgitコマンドを使う
-- gitのインストール
+- [Gitってなに？かちょっと知る](what_version_control.md)
+
+  - バージョン管理とは？
+  - バージョン管理ツールの歴史
+  - Githubってなに？
+
+- [gitを使おう](first_git.md)
+- gitを利用する準備
 - ファイルを保存しよう
 - ファイルを前のバージョンに戻そう
 - ブランチを使おう
 - マージしよう
 
-ローカル環境でGitHubにpushしよう
+- [GitHubを利用しよう](first_github.md)
 - GitHubにアカウントを作ろう
 - 自分のリポジトリーにpushしよう
 
