@@ -40,11 +40,17 @@ git status  # 現在の状況を確認
 (mac) ls -la
 ```
 
+![init](images/local_git02.png)
+
+![dir](images/local_git03.png)
+
 ### 新しいファイルを作ろう
 
 詳しくは、以下を読もう
 
 [Git - 変更内容のリポジトリへの記録](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E5%9F%BA%E6%9C%AC-%E5%A4%89%E6%9B%B4%E5%86%85%E5%AE%B9%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%B8%E3%81%AE%E8%A8%98%E9%8C%B2)
+
+![状態](images/local_git01.png)
 
 ```
 echo "Hello, Git" > sample.txt
@@ -56,6 +62,8 @@ echo "Hello, Git" > sample.txt
 ```
 git status
 ```
+
+![status](images/local_git04.png)
 
 ステージングに登録
 
@@ -98,6 +106,8 @@ git commit sample.txt -m "Created new file"
 ```
 git log
 ```
+
+![log](images/local_git05.png)
 
 ### 作業のやり直し
 
