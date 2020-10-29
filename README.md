@@ -15,9 +15,8 @@
 
 今回だとGitか、GitHubのDocumentをなるべく見ましょう。
 
-- [GitHub Docs](https://docs.github.com/ja) ←こっちは日本語もある。
-- [Git - Reference](https://git-scm.com/docs)
-- [Git - Book](https://git-scm.com/book/en/v2)
+- [GitHub Docs](https://docs.github.com/ja)
+- [Git - Book](https://git-scm.com/book/ja/v2)
 
 本だと [いちばんやさしいGit&GitHubの教本](https://book.impress.co.jp/books/1118101036) などがおすすめです。
 
