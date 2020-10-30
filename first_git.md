@@ -44,6 +44,7 @@ git status  # 現在の状況を確認
 
 ![dir](images/local_git03.png)
 
+## ハンズオン
 ### 新しいファイルを作ろう
 
 詳しくは、以下を読もう
@@ -122,3 +123,33 @@ git reset <commit id>
 ### やってみよう
 - 新しいファイルを追加して、commit しましょう。（ファイルの追加はエクスプローラーから行ってもかまいません）
 - 新しいファイルを修正して、commit しましょう。（ファイルの修正はメモ帳で行ってもかまいません）
+
+### ファイルを無視したい
+仮想環境用のファイル、開発ツール固有のファイル、キャッシュファイルなどはリポジトリに追加したくない。
+
+#### 個人的に追加したくない
+`.git/info/exclude` に対象外にしたいファイルを書く。
+
+以下の例だと、 `test` からはじまるファイルと `.log` で終わるファイルは無視します。
+```
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+test*
+*.log
+```
+
+無視されるか確認してみましょう
+
+```
+echo "Test" > test_1031.txt
+echo "LogLogLog" > sample.log
+git tatus
+```
+
+#### チーム全体で無視したい
+`.gitignore` ファイルをリポジトリー直下に作成する
+書き方はexcludeファイルと同じ
