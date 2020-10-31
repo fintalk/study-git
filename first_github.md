@@ -14,7 +14,7 @@
 
 ```
 git branch -M main  # 元のブランチ名がmainの人は不要です
-git remote add origin https://<githubのユーザー名>/<githubのパスワード>@github.com/<user名>/<リポジトリ名>.git
+git remote add origin https://<githubのユーザー名>:<githubのパスワード>@github.com/<user名>/<リポジトリ名>.git
 git push -u origin main
 ```
 

@@ -20,7 +20,7 @@
 
 ```
 cd ..
-git clone https://<githubのユーザー名>/<githubのパスワード>@github.com/<user名>/study-git.git
+git clone https://<githubのユーザー名>:<githubのパスワード>@github.com/<user名>/study-git.git
 cd study-git
 ```
 
