@@ -79,15 +79,25 @@ new_branchを確認しよう
 
 ## マージする
 
-PR作ろう
+マージとは2つのブランチを結合することです。
+ローカルでも可能ですが、今回はGitHubの画面から行います。
+
+PR（Pull Request）作ろう
+
+Pull Requestとは、別のブランチに取り込んでもらうための機能です。
 
 ![image](images/branch06.png)
 
+左を押した場合は、表示された画面から取り込みたいブランチを選択し、New pull request をクリックする。
+
 ![image](images/branch07.png)
+
+`main <- new_branch` と表示される。左側が取り込むブランチ、右側が取り込まれるブランチ。正しく選択されていない場合はこの画面で選択しまsう。
+
 
 ![image](images/branch08.png)
 
-タイトルと詳細を書く
+Pull Requestのタイトルと詳細を書く
 
 ![image](images/branch09.png)
 
@@ -97,19 +107,27 @@ mainブランチとの違いが判る
 
 ![image](images/branch11.png)
 
+Merge pull requestボタンを押します。
+マージ用のコメントを書いて、 Confirm mergeボタンを押します。
+これでマージ完了です。
+
 ![image](images/branch12.png)
 
-マージしたブランチは消しましょう。
+マージしたブランチはDelete branchボタンを押して消しましょう。（復活させることもできます）
 
 ![image](images/branch13.png)
 
 ![image](images/branch14.png)
 
-ローカルのブランチは消えないので、コマンドで自分で消しましょう
+リモートでDelete branchしてもローカルのブランチは消えないので、ローカルではコマンドを利用で消しましょう
 邪魔じゃないなら別に消さなくてもいいです
 
 ```
 git branch -d new_branch
 ```
 
+取り込まれていない作業中のブランチを消したくなった場合は `-d` の代わりに `-D` を指定します。
+
 ![image](images/branch15.png)
+
+mainブランチのみになったのが確認できます。
