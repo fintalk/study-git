@@ -19,18 +19,25 @@ git branch
 新しいブランチを作る
 
 ```
-git chekcout -b new_branch
-```
-
-または
-
-```
 git branch new_branch
+```
+
+ブランチで作業できるようにする。（チェックイン）
+
+```
+git checkout new_branch
+```
+
+または上の2つのコマンドをcheckoutにオプション-bをつけると同時に行えます。
+
+```
+git checkout -b new_branch
 ```
 
 ![image](images/branch01.png)
 
-## ファイルを追加してみよう
+## ブランチにファイルを追加してみよう
+new_branchに新しいファイルを追加します。
 
 ```
 echo "Hello, Branch" > branch.txt
