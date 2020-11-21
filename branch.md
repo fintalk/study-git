@@ -17,7 +17,7 @@ git branch
 新しいブランチを作る
 
 ```
-git chekcout -b new_branch
+git checkout -b new_branch
 ```
 
 ![image](images/branch01.png)
