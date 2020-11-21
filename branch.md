@@ -7,6 +7,8 @@
 
 [Git - ブランチとは](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81%E6%A9%9F%E8%83%BD-%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81%E3%81%A8%E3%81%AF)
 
+![image](images/new_branch.png)
+
 
 ## ローカルで新しいブランチを作ろう
 
@@ -80,6 +82,9 @@ new_branchを確認しよう
 ## マージする
 
 マージとは2つのブランチを結合することです。
+
+![image](images/merge.png)
+
 ローカルでも可能ですが、今回はGitHubの画面から行います。
 
 PR（Pull Request）作ろう
