@@ -4,7 +4,7 @@
 
 ## ゴール
 - Gitとは何かがわかります
-- ローカルでのGitの使い方がわかります
+- ローカルでのGitの基本的な使い方がわかります
 - Githubの基本的な使い方がわかります
 - Githubの既存のリポジトリーをフォークしてPullRequestが出せます
 
@@ -15,58 +15,37 @@
 
 今回だとGitか、GitHubのDocumentをなるべく見ましょう。
 
-- [GitHub Docs](https://docs.github.com/ja) ←こっちは日本語もある。
-- [Git - Reference](https://git-scm.com/docs)
+- [GitHub Docs](https://docs.github.com/ja)
+- [Git - Book](https://git-scm.com/book/ja/v2)
 
-本だと [いちばんやさしいGit&GitHubの教本](https://book.impress.co.jp/books/1118101036) などがおすすめです。本はなるべく出版日が新しいものを買いましょう。
-
-## 事前準備
-ハンズオンの前までに以下をやっておいてください。
-
-### GitHubにアカウントを作る
-- https://github.com/ の `Sign up` からUsername, e-mail, passwordを入力する
-- 人間クイズにこたえる
-- Join free planボタンを押す
-- アンケートに答える
-- 入力したメールアドレスに「[GitHub] Please verify your email address.」というタイトルのメールが来るので、「Verify e-mail address」ボタンを押す
-
-### gitのインストール
-[Git - Downloads](https://git-scm.com/downloads) にアクセスし、自分の環境のリンクをクリックしてください。
-
-![git_download](images/git_download.jpg)
-
-ダウンロードしたファイルを利用して、インストールしてください。
-画像部分以外の各選択肢は初期状態のままでInstallまで進んでください。
-
-![git install 1](images/git_install1.png)
-
-インストールが終わったら、コマンドプロンプトを立ち上げ　`git --version` と打ちます。
-ダウンロードしたgitのバージョンが表示されたら成功です。
-
-![git install 2](images/git_install2.jpg)
+本だと [いちばんやさしいGit&GitHubの教本](https://book.impress.co.jp/books/1118101036) などがおすすめです。
 
 ## やること
-Gitってなに？かちょっと知る
-- バージョン管理とは？
-- バージョン管理ツールの歴史
-- Githubってなに？
+- [事前準備](in_advance.md)
 
-ローカル環境でgitコマンドを使う
-- gitのインストール
-- ファイルを保存しよう
-- ファイルを前のバージョンに戻そう
-- ブランチを使おう
-- マージしよう
+- [Gitってなに？かちょっと知る](about_git.md)
 
-ローカル環境でGitHubにpushしよう
-- GitHubにアカウントを作ろう
-- 自分のリポジトリーにpushしよう
+- [ローカルでGitを使おう](first_git.md)
 
-他の人のリポジトリーを変更する
-- 他の人のリポジトリーについて
-- Forkしよう
-- Pull Requestしよう
+- [GitHubを利用しよう](first_github.md)
 
-レビュー
-- 他の人にレビュー依頼をだそう
-- レビューしよう
+  - ※無料枠のGitHubユーザーは1人1個までの決まりです。たくさん作らないように注意しましょう。
+
+- [ブランチを利用しよう](branch.md)
+
+
+- [他の人のリポジトリーの変更依頼を出そう](pullrequest.md)
+
+
+## やってみよう
+- 自分で作った新しいリポジトリーにPythonファイルをpushしよう
+- 他の人のファイルを修正してPRを出そう
+- PRが来たらレビューしよう
+- 他の人のPRをマージしよう
+
+## 宿題
+全部終わらなかったので、「ブランチを利用しよう」から「他の人のリポジトリーの変更依頼を出そう」をやって
+「自分のリポジトリーにPRが着たらレビューしよう」の直前までをやってPull Requestをだしてください。
+Pull Requestを出したら、slackでメンションしてください。
+
+資料で分からない点があったらslackで聞いてください。
