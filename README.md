@@ -1,4 +1,4 @@
-# Study Git and GitHUb.
+# Study Git and GitHub.
 
 このリポジトリーはGitとGitHubについて学べる資料を提供します。
 
