@@ -24,13 +24,15 @@ git branch
 git branch new_branch
 ```
 
-ブランチで作業できるようにする。（チェックイン）
+ブランチで作業できるようにする。
 
 ```
 git checkout new_branch
 ```
 
-または上の2つのコマンドをcheckoutにオプション-bをつけると同時に行えます。
+![image](images/branch20.png)
+
+メモ: 上の2つのコマンドをcheckoutにオプション-bをつけると同時に行ったことになります。
 
 ```
 git checkout -b new_branch
@@ -136,3 +138,11 @@ git branch -d new_branch
 ![image](images/branch15.png)
 
 mainブランチのみになったのが確認できます。
+
+## ローカルでマージしよう
+
+ローカルでnew_branchブランチでの変更をmainブランチにマージします
+
+![image](images/branch21.png)
+
+取り込みたいほうのブランチにチェックアウトして行います。
