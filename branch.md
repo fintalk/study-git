@@ -143,6 +143,6 @@ mainブランチのみになったのが確認できます。
 
 ローカルでnew_branchブランチでの変更をmainブランチにマージします
 
-![image](images/branceh21.png)
+![image](images/branch21.png)
 
 取り込みたいほうのブランチにチェックアウトして行います。
